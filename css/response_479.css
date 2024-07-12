@@ -1,0 +1,957 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 30px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head,
+    .page_head.small_m
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*----------
+        Rent
+    ----------*/
+    .advantages .item
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog.blue
+    {
+        padding-top: 48px;
+        padding-bottom: 20px;
+    }
+
+
+    .blog .swiper
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .blog .item .info
+    {
+        padding: 20px 20px 30px;
+    }
+
+
+    .blog .item .link a
+    {
+        width: 235px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .location .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .location .address
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .articles .article + .article
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 24px;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-top: 26px;
+    }
+
+
+
+    /*---------------------
+        About page head
+    ---------------------*/
+    .about_page_head .title br,
+    .about_page_head .text_block br
+    {
+        display: none;
+    }
+
+
+    .about_page_head .bg
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .about_info .item
+    {
+        padding: 0 0 30px;
+    }
+
+
+    .about_info .item .desc
+    {
+        padding: 0 20px;
+    }
+
+
+    .about_info .item .image
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services,
+    .services.small
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .services.small
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .services .service
+    {
+        padding: 0 0 30px;
+    }
+
+
+    .services .service .data
+    {
+        padding: 0 20px;
+    }
+
+
+    .services .service .image
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .clients.default
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------
+        Consult
+    -------------*/
+    .consult
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .consult .data
+    {
+        padding: 30px 24px;
+    }
+
+
+    .consult .info .title
+    {
+        font-size: 18px;
+    }
+
+
+    .consult .form
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------------
+        Direction page head
+    -------------------------*/
+    .direction_page_head
+    {
+        padding-top: 20px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .direction_page_head.small
+    {
+        padding-top: 20px;
+    }
+
+
+    .direction_page_head .bg
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------
+        Direction services
+    ------------------------*/
+    .direction_services,
+    .recruitment + .direction_services
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .direction_services .swiper
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .direction_services .swiper-slide
+    {
+        visibility: visible;
+
+        width: 275px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .direction_services .service .info
+    {
+        padding: 20px 20px 30px;
+    }
+
+
+    .direction_services .service .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------------
+        Reduce expenses
+    ---------------------*/
+    .reduce_expenses
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .reduce_expenses .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .reduce_expenses .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .reduce_expenses .item
+    {
+        padding-left: 68px;
+    }
+
+
+    .reduce_expenses .item:before
+    {
+        font-size: 36px;
+
+        top: -2px;
+    }
+
+
+    .reduce_expenses .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .reduce_expenses .item .name:before
+    {
+        height: 40px;
+    }
+
+
+
+    /*-------------------
+        Order service
+    -------------------*/
+    .order_service
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .order_service .data
+    {
+        padding: 24px;
+    }
+
+
+    .order_service .sub_title
+    {
+        font-size: 18px;
+    }
+
+
+    .order_service .info .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Recruitment
+    -----------------*/
+    .recruitment
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .recruitment .item
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*-------------------
+        Direction why
+    -------------------*/
+    .direction_why
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .direction_why .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .direction_why .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .direction_why .item
+    {
+        padding-left: 68px;
+    }
+
+
+    .direction_why .item:before
+    {
+        font-size: 36px;
+
+        top: -2px;
+    }
+
+
+    .direction_why .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .direction_why .item .name:before
+    {
+        height: 40px;
+    }
+
+
+
+    /*----------------------
+        All our services
+    ----------------------*/
+    .all_our_services
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .all_our_services .service .name
+    {
+        font-size: 24px;
+    }
+
+
+    .all_our_services .service .btn
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .all_our_services .service .image
+    {
+        margin-top: 30px;
+
+        border-radius: 20px;
+    }
+
+
+    .all_our_services .controls
+    {
+        justify-content: space-between;
+
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .vacancies .item .info
+    {
+        padding: 20px 20px 30px;
+    }
+
+
+    .vacancies .item .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+    /*-------------------
+        Staff leasing
+    -------------------*/
+    .staff_leasing
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .staff_leasing .item
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases:not(.block)
+    {
+        padding-top: 48px;
+    }
+
+
+    .cases .swiper
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .cases .case
+    {
+        padding: 30px 20px;
+    }
+
+
+    .cases .case .head .title
+    {
+        font-size: 18px;
+
+        margin-top: 20px;
+    }
+
+
+    .cases .case .task .title
+    {
+        font-size: 18px;
+    }
+
+
+    .cases .case .solution .title
+    {
+        font-size: 18px;
+    }
+
+
+    .cases .case .result .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    .cases .review
+    {
+        padding: 30px 20px;
+    }
+
+
+    .cases .review .logo
+    {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    .cases .review .company
+    {
+        font-size: 18px;
+
+        height: 65px;
+        padding-left: 89px;
+    }
+
+
+
+    /*-------------------
+        What it solve
+    -------------------*/
+    .what_it_solve
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .what_it_solve .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------
+        Why need
+    --------------*/
+    .why_need
+    {
+        padding-top: 116px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .clients + .why_need
+    {
+        padding-top: 0;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .why_need .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .why_need .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .why_need .item
+    {
+        padding-left: 68px;
+    }
+
+
+    .why_need .item:before
+    {
+        font-size: 36px;
+
+        top: -2px;
+    }
+
+
+    .why_need .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .why_need .item .name:before
+    {
+        height: 40px;
+    }
+
+
+
+    /*---------------------------
+        Operational selection
+    ---------------------------*/
+    .operational_selection
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .operational_selection .title
+    {
+        font-size: 24px;
+    }
+
+
+    .operational_selection .img,
+    .operational_selection.default .img
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        What included
+    -------------------*/
+    .what_included .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .what_included .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .what_included .item
+    {
+        padding-left: 68px;
+    }
+
+
+    .what_included .item:before
+    {
+        font-size: 36px;
+
+        top: -2px;
+    }
+
+
+    .what_included .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .what_included .item .name:before
+    {
+        height: 40px;
+    }
+
+
+
+    /*-------------------
+        Kind of staff
+    -------------------*/
+    .kind_of_staff
+    {
+        padding: 48px 0;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+
+    /*-----------------
+        Specializes
+    -----------------*/
+    .specializes
+    {
+        margin-bottom: 60px;
+        padding: 116px 0 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .specializes .data .title
+    {
+        font-size: 28px;
+    }
+
+
+    .specializes .item .info
+    {
+        padding: 20px 20px 30px;
+    }
+
+
+    .specializes .item .desc
+    {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 50px 0 16px;
+    }
+
+
+    footer .logo img
+    {
+        width: 160px;
+    }
+
+
+    footer .socials a
+    {
+        width: 34px;
+        height: 34px;
+
+        border-radius: 12px 0;
+    }
+
+
+    footer .socials a + a
+    {
+        margin-left: 12px;
+    }
+
+
+    footer .socials .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    footer .socials .icon.big
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    footer .menu
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    footer .menu > *:nth-child(3n+1),
+    footer .menu > *:nth-child(3n+2),
+    footer .menu > *:nth-child(3n+3)
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 24px;
+    }
+
+
+    footer .copyright,
+    footer .links
+    {
+        font-size: 10px;
+    }
+}

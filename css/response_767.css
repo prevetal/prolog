@@ -1,0 +1,1358 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 35px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+
+        margin: 0;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: auto;
+        left: 0;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 32px;
+    }
+
+
+    .pagination a
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .pagination a + a
+    {
+        margin-left: auto;
+    }
+
+
+    .pagination a .icon
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        width: 180px;
+    }
+
+
+    header .mob_menu_btn .icon
+    {
+        width: 25px;
+        height: 15px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head,
+    .page_head.small_m
+    {
+        margin-bottom: 44px;
+        padding-top: 12px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .form .input
+    {
+        height: 50px;
+        padding: 0 23px;
+    }
+
+
+    .form textarea
+    {
+        height: 100px;
+        padding: 15px 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        width: 100%;
+        height: 52px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+        padding-top: 30px;
+    }
+
+
+    .first_section .text_block
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .first_section .items
+    {
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+
+    .first_section .items > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .text_block
+    {
+        font-size: var(--font_size);
+        line-height: 22px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------
+        Rent
+    ----------*/
+    .rent .text_block
+    {
+        font-size: var(--font_size);
+        line-height: 22px;
+    }
+
+
+    .rent .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .rent .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .geography .image
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog.blue
+    {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+
+    .blog .swiper
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .blog .row
+    {
+        margin-left: 0;
+    }
+
+
+    .blog .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .blog .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .blog .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .blog .item .link
+    {
+        margin-top: 48px;
+    }
+
+
+    .blog .item .link a
+    {
+        font-size: 16px;
+    }
+
+
+    .blog .all_link
+    {
+        margin-top: 30px;
+    }
+
+
+    .blog .all_link a
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .location .title
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_info .location .address
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .articles .article + .article
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-top: 32px;
+
+        border-radius: 20px;
+    }
+
+
+
+    /*---------------------
+        About page head
+    ---------------------*/
+    .about_page_head .text_block
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .about_info .item
+    {
+        min-height: 0;
+        padding: 0 0 32px;
+    }
+
+
+    .about_info .item .desc
+    {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+
+    .about_info .item .image
+    {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+    }
+
+
+    .about_info .item .image img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services,
+    .services.small
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .services.small
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .services .service
+    {
+        min-height: 0;
+        padding: 0 0 32px;
+    }
+
+
+    .services .service .data
+    {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+    }
+
+
+    .services .service .image
+    {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+    }
+
+
+    .services .service .image img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .services .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .clients.default
+    {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    .clients.default.big_m
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .clients .item
+    {
+        height: 60px;
+    }
+
+
+
+    /*-------------
+        Consult
+    -------------*/
+    .consult
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .consult .data
+    {
+        padding: 32px 28px;
+    }
+
+
+    .consult .info .title
+    {
+        font-size: 20px;
+    }
+
+
+    .consult .info .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .consult .form
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------------------
+        Direction page head
+    -------------------------*/
+    .direction_page_head
+    {
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .direction_page_head .text_block
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .direction_page_head .link
+    {
+        margin-top: 30px;
+    }
+
+
+    .direction_page_head .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------
+        Direction services
+    ------------------------*/
+    .direction_services,
+    .recruitment + .direction_services
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .direction_services .swiper
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .direction_services .swiper-slide
+    {
+        visibility: visible;
+
+        width: 275px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .direction_services .service .info
+    {
+        padding: 20px 20px 30px;
+    }
+
+
+    .direction_services .service .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------------
+        Reduce expenses
+    ---------------------*/
+    .reduce_expenses
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .reduce_expenses .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .reduce_expenses .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .reduce_expenses .item:before
+    {
+        font-size: 44px;
+    }
+
+
+    .reduce_expenses .item .name:before
+    {
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Order service
+    -------------------*/
+    .order_service
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .order_service .data
+    {
+        padding: 28px;
+    }
+
+
+    .order_service .sub_title
+    {
+        font-size: 22px;
+    }
+
+
+    .order_service .info .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------------
+        Recruitment
+    -----------------*/
+    .recruitment
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .recruitment .row
+    {
+        margin-left: 0;
+    }
+
+
+    .recruitment .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Direction why
+    -------------------*/
+    .direction_why
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .direction_why .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .direction_why .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .direction_why .item:before
+    {
+        font-size: 44px;
+    }
+
+
+    .direction_why .item .name:before
+    {
+        height: 48px;
+    }
+
+
+
+    /*----------------------
+        All our services
+    ----------------------*/
+    .all_our_services
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .all_our_services .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .vacancies .row
+    {
+        margin-left: 0;
+    }
+
+
+    .vacancies .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Staff leasing
+    -------------------*/
+    .staff_leasing
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .staff_leasing .row
+    {
+        margin-left: 0;
+    }
+
+
+    .staff_leasing .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases:not(.block)
+    {
+        padding-top: 60px;
+    }
+
+
+    .cases .swiper
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .cases .case
+    {
+        padding: 40px 24px;
+    }
+
+
+    .cases .case .head
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .cases .case .head .number
+    {
+        font-size: 24px;
+    }
+
+
+    .cases .case .head .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-top: 24px;
+        padding-left: 35px;
+    }
+
+
+    .cases .case .task
+    {
+        width: 100%;
+    }
+
+
+    .cases .case .task .title
+    {
+        font-size: 20px;
+    }
+
+
+    .cases .case .solution
+    {
+        width: 100%;
+    }
+
+
+    .cases .case .solution .title
+    {
+        font-size: 20px;
+    }
+
+
+    .cases .case .result .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .cases .review
+    {
+        padding: 40px 24px;
+    }
+
+
+    .cases .review .row
+    {
+        position: relative;
+    }
+
+
+    .cases .review .logo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .cases .review .logo + *
+    {
+        width: 100%;
+    }
+
+
+    .cases .review .company
+    {
+        font-size: 17px;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        height: 80px;
+        padding-left: 104px;
+    }
+
+
+
+    /*-------------------
+        What it solve
+    -------------------*/
+    .what_it_solve
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .what_it_solve .image
+    {
+        min-height: 0;
+    }
+
+
+    .what_it_solve .data
+    {
+        width: 100%;
+    }
+
+
+    .what_it_solve .title
+    {
+        font-size: 26px;
+    }
+
+
+    .what_it_solve .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .what_it_solve .items
+    {
+        font-size: var(--font_size);
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .what_it_solve .items > *
+    {
+        min-height: 40px;
+    }
+
+    .what_it_solve .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .what_it_solve .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+    /*--------------
+        Why need
+    --------------*/
+    .why_need
+    {
+        padding-top: 128px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .clients + .why_need
+    {
+        padding-top: 24px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .why_need .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .why_need .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .why_need .item:before
+    {
+        font-size: 44px;
+    }
+
+
+    .why_need .item .name:before
+    {
+        height: 48px;
+    }
+
+
+    .why_need .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*---------------------------
+        Operational selection
+    ---------------------------*/
+    .operational_selection
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .operational_selection .title
+    {
+        font-size: 26px;
+    }
+
+
+    .operational_selection .items
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .operational_selection .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .operational_selection .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        What included
+    -------------------*/
+    .what_included .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .what_included .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .what_included .item:before
+    {
+        font-size: 44px;
+    }
+
+
+    .what_included .item .name:before
+    {
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Kind of staff
+    -------------------*/
+    .kind_of_staff
+    {
+        padding: 60px 0;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .kind_of_staff .row
+    {
+        margin-left: 0;
+    }
+
+
+    .kind_of_staff .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .kind_of_staff .item .link
+    {
+        margin-top: 30px;
+    }
+
+
+    .kind_of_staff .item .link a
+    {
+        font-size: 16px;
+
+        height: 50px;
+    }
+
+
+
+    /*-----------------
+        Specializes
+    -----------------*/
+    .specializes
+    {
+        padding: 128px 0 60px;
+
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .specializes .data .title
+    {
+        font-size: 30px;
+    }
+
+
+    .specializes .data .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+    .specializes .items
+    {
+        margin-top: 30px;
+    }
+
+
+    .specializes .items > *
+    {
+        width: 100%;
+    }
+
+    .specializes .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0 24px;
+    }
+
+
+    footer .logo img
+    {
+        width: 200px;
+    }
+
+
+    footer .socials a
+    {
+        width: 40px;
+        height: 40px;
+
+        border-radius: 14px 0;
+    }
+
+
+    footer .socials a + a
+    {
+        margin-left: 16px;
+    }
+
+
+    footer .socials .icon
+    {
+        width: 19px;
+        height: 19px;
+    }
+
+    footer .socials .icon.big
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    footer .menu > *:nth-child(3n+1),
+    footer .menu > *:nth-child(3n+2),
+    footer .menu > *:nth-child(3n+3)
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 26px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 12px;
+
+        width: 100%;
+        margin-top: 28px;
+
+        text-align: center;
+    }
+
+
+    footer .links
+    {
+        font-size: 12px;
+
+        display: block;
+
+        text-align: center;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+
+    footer .creator
+    {
+        display: none;
+    }
+}

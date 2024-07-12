@@ -1,0 +1,973 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        font-size: 16px;
+
+        width: 280px;
+        height: 50px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 68px;
+        padding-top: 40px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .text_block
+    {
+        font-size: 15px;
+
+        width: 100%;
+    }
+
+
+    .first_section .bg
+    {
+        position: relative;
+
+        width: calc(100% - 24px);
+        margin-top: 40px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*----------
+        Rent
+    ----------*/
+    .rent .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .rent .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding-bottom: 68px;
+    }
+
+
+    .geography .image
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog.blue
+    {
+        padding-top: 68px;
+        padding-bottom: 40px;
+    }
+
+
+    .blog .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------------
+        About page head
+    ---------------------*/
+    .about_page_head
+    {
+        min-height: 0;
+        margin-bottom: 68px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .about_page_head .data
+    {
+        width: 100%;
+    }
+
+
+    .about_page_head .text_block
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+    .about_page_head .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .about_page_head .bg
+    {
+        position: relative;
+
+        width: calc(100% - 24px);
+        margin-top: 40px;
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .item
+    {
+        min-height: 160px;
+        padding: 12px 24px;
+    }
+
+
+    .about_info .item .desc
+    {
+        width: 320px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services,
+    .services.small
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .services .service
+    {
+        min-height: 160px;
+        padding: 12px 24px;
+    }
+
+
+    .services .service .data
+    {
+        width: 380px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 19px;
+    }
+
+
+    .services .service .desc
+    {
+        margin-top: 16px;
+    }
+
+
+    .services .btn
+    {
+        font-size: 17px;
+
+        width: 372px;
+        height: 52px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(25% - 24px);
+    }
+
+
+    .clients .item
+    {
+        height: 68px;
+    }
+
+
+
+    /*-------------
+        Consult
+    -------------*/
+    .consult
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .consult .data
+    {
+        padding: 40px;
+    }
+
+
+    .consult .info
+    {
+        width: 100%;
+    }
+
+
+    .consult .info .title
+    {
+        font-size: 22px;
+    }
+
+
+    .consult .info .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .consult .form
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .consult .form .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------------
+        Direction page head
+    -------------------------*/
+    .direction_page_head
+    .direction_page_head.small
+    {
+        min-height: 0;
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+
+    .direction_page_head.small
+    {
+        padding: 0;
+    }
+
+
+    .direction_page_head .data
+    {
+        width: 100%;
+    }
+
+
+    .direction_page_head .title br
+    {
+        display: none;
+    }
+
+
+    .direction_page_head .text_block
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+    .direction_page_head .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .direction_page_head .link a
+    {
+        font-size: 16px;
+
+        width: 280px;
+        height: 50px;
+    }
+
+
+
+    .direction_page_head .bg
+    {
+        position: relative;
+        bottom: 0;
+
+        width: calc(100% - 24px);
+        margin-top: 40px;
+        margin-left: auto;
+    }
+
+
+
+    /*------------------------
+        Direction services
+    ------------------------*/
+    .direction_services,
+    .recruitment + .direction_services
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .direction_services .service .btn
+    {
+        width: 168px;
+    }
+
+
+
+    /*---------------------
+        Reduce expenses
+    ---------------------*/
+    .reduce_expenses
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .reduce_expenses .item
+    {
+        padding-left: 80px;
+    }
+
+
+    .reduce_expenses .item:before
+    {
+        font-size: 52px;
+    }
+
+
+    .reduce_expenses .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .reduce_expenses .item .name:before
+    {
+        height: 60px;
+    }
+
+
+
+    /*-------------------
+        Order service
+    -------------------*/
+    .order_service
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+    .order_service .sub_title
+    {
+        font-size: 24px;
+
+        padding-left: 40px;
+    }
+
+
+    .order_service .sub_title br
+    {
+        display: none;
+    }
+
+
+    .order_service .info .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------------
+        Recruitment
+    -----------------*/
+    .recruitment
+    {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+
+    .recruitment .row
+    {
+        margin-left: 0;
+    }
+
+
+    .recruitment .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Direction why
+    -------------------*/
+    .direction_why
+    {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+
+    .direction_why .item
+    {
+        padding-left: 80px;
+    }
+
+
+    .direction_why .item:before
+    {
+        font-size: 52px;
+    }
+
+
+    .direction_why .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .direction_why .item .name:before
+    {
+        height: 60px;
+    }
+
+
+
+    /*----------------------
+        All our services
+    ----------------------*/
+    .all_our_services
+    {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+
+    .all_our_services .block_head
+    {
+        position: relative;
+
+        margin-bottom: 40px;
+    }
+
+
+    .all_our_services .service .data
+    {
+        width: 100%;
+        padding-top: 0;
+    }
+
+
+    .all_our_services .service .name
+    {
+        font-size: 22px;
+    }
+
+
+    .all_our_services .service .btn
+    {
+        font-size: 16px;
+
+        width: 280px;
+        height: 50px;
+    }
+
+
+    .all_our_services .service .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 66.666%;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies
+    {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+
+    .vacancies .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .vacancies .item .desc > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .vacancies .item .price
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Staff leasing
+    -------------------*/
+    .staff_leasing
+    {
+        padding-top: 136px;
+        padding-bottom: 68px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases:not(.block)
+    {
+        padding-top: 68px;
+    }
+
+
+    .cases .case
+    {
+        padding: 40px 28px;
+    }
+
+
+    .cases .case .head .title
+    {
+        font-size: 24px;
+
+        padding-left: 40px;
+    }
+
+
+    .cases .case .head .title:before
+    {
+        width: 15px;
+
+        border-radius: 10px 0 10px 0;
+    }
+
+
+    .cases .case .task .title
+    {
+        font-size: 24px;
+    }
+
+
+    .cases .case .solution .title
+    {
+        font-size: 24px;
+    }
+
+
+    .cases .case .result
+    {
+        margin-top: 40px;
+    }
+
+
+    .cases .case .result .title
+    {
+        font-size: 24px;
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .cases .case .result .items
+    {
+        width: 100%;
+    }
+
+
+
+    .cases .review
+    {
+        padding: 40px 28px;
+    }
+
+
+    .cases .review .title
+    {
+        font-size: 24px;
+    }
+
+
+    .cases .review .logo
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .cases .review .logo + *
+    {
+        width: calc(100% - 128px);
+    }
+
+
+    .cases .review .company
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------------
+        What it solve
+    -------------------*/
+    .why_need + .what_it_solve
+    {
+        margin-bottom: 0;
+    }
+
+
+    .what_it_solve .image
+    {
+        min-height: 536px;
+    }
+
+
+    .what_it_solve .title
+    {
+        font-size: 28px;
+    }
+
+
+    .what_it_solve .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .what_it_solve .items
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------
+        Why need
+    --------------*/
+    .why_need .item
+    {
+        padding-left: 80px;
+    }
+
+
+    .why_need .item:before
+    {
+        font-size: 52px;
+    }
+
+
+    .why_need .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .why_need .item .name:before
+    {
+        height: 60px;
+    }
+
+
+
+    /*---------------------------
+        Operational selection
+    ---------------------------*/
+    .operational_selection .title
+    {
+        font-size: 28px;
+    }
+
+
+    .operational_selection .items
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        What included
+    -------------------*/
+    .what_included .row
+    {
+        padding: 0;
+    }
+
+
+    .what_included .item
+    {
+        padding-left: 80px;
+    }
+
+
+    .what_included .item:before
+    {
+        font-size: 52px;
+    }
+
+
+    .what_included .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .what_included .item .name:before
+    {
+        height: 60px;
+    }
+
+
+
+    /*-------------------
+        Kind of staff
+    -------------------*/
+    .kind_of_staff
+    {
+        padding: 68px 0;
+    }
+
+
+    .kind_of_staff .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .kind_of_staff .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Specializes
+    -----------------*/
+    .specializes
+    {
+        padding: 136px 0 68px;
+    }
+
+
+    .specializes .data
+    {
+        width: 100%;
+    }
+
+
+    .specializes .items
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .specializes .item .info
+    {
+        padding: 24px 24px 40px;
+    }
+
+
+    .specializes .item .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .menu
+    {
+        width: calc(100% + 24px);
+        max-width: calc(100% + 24px);
+        margin-left: -24px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    footer .menu > *:nth-child(3n+1),
+    footer .menu > *:nth-child(3n+2),
+    footer .menu > *:nth-child(3n+3)
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        text-align: center;
+    }
+
+
+    footer .copyright
+    {
+        order: 2;
+
+        margin-top: 20px;
+    }
+
+
+    footer .links
+    {
+        justify-content: center;
+
+        width: 100%;
+    }
+
+
+    footer .creator
+    {
+        order: 2;
+
+        width: auto;
+    }
+}
