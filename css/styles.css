@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
 
-    scroll-margin-top: 24px;
+    scroll-margin-top: 0;
 }
 
 *:before,
@@ -384,9 +384,16 @@ header .logo img
 
 
 
+header .menu
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 header .menu_item + .menu_item
 {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
@@ -403,14 +410,34 @@ header .menu_item > a
 
 
 
+header .phone
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #005eb8;
+}
+
+
+header .phone a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
 header .callback_btn
 {
     font-size: 20px;
     font-weight: 700;
 
-    width: 350px;
+    width: 300px;
     max-width: 100%;
     height: 60px;
+    margin-left: 30px;
 
     color: #efeff0;
     border-radius: 20px 0;
@@ -619,6 +646,8 @@ header .mob_menu_btn.active .icon + .icon
     line-height: 20px;
 
     margin-top: 20px;
+
+    color: #051a32;
 }
 
 
@@ -2441,13 +2470,7 @@ header .mob_menu_btn.active .icon + .icon
 }
 
 
-.direction_services .link
-{
-    margin-top: 50px;
-}
-
-
-.direction_services .link a
+.direction_services .selection_btn
 {
     font-size: 20px;
     font-weight: 700;
@@ -2461,10 +2484,7 @@ header .mob_menu_btn.active .icon + .icon
     width: 350px;
     max-width: 100%;
     height: 60px;
-    margin: 0 auto;
-
-    text-align: center;
-    text-decoration: none;
+    margin: 50px auto 0;
 
     color: #005eb8;
     border-radius: 20px 0;
@@ -3396,6 +3416,15 @@ header .mob_menu_btn.active .icon + .icon
 }
 
 
+.cases .swiper-horizontal > .swiper-pagination-bullets,
+.cases .swiper-pagination-bullets.swiper-pagination-horizontal,
+.cases .swiper-pagination-custom,
+.cases .swiper-pagination-fraction
+{
+    display: none;
+}
+
+
 
 .cases .case
 {
@@ -4007,13 +4036,6 @@ header .mob_menu_btn.active .icon + .icon
     bottom: 0;
 
     margin: auto 0;
-}
-
-
-.operational_selection .cont
-{
-    position: relative;
-    z-index: 3;
 }
 
 

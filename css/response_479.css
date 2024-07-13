@@ -6,7 +6,7 @@
     :root
     {
         --font_size: 14px;
-        --font_size_title: 30px;
+        --font_size_title: 32px;
     }
 
 
@@ -71,7 +71,16 @@
     /*----------
         Rent
     ----------*/
-    .advantages .item
+    .rent
+    {
+        margin-bottom: 0;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .rent .item
     {
         padding: 16px 20px;
     }
@@ -95,7 +104,7 @@
     ----------*/
     .blog.blue
     {
-        padding-top: 48px;
+        padding-top: 116px;
         padding-bottom: 20px;
     }
 
@@ -270,6 +279,16 @@
     {
         padding-top: 48px;
         padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .clients.default.big_m
+    {
+        padding-bottom: 48px;
+
+        border-radius: 0 0 20px 20px;
     }
 
 

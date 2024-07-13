@@ -33,19 +33,6 @@
     }
 
 
-    header .menu,
-    header .callback_btn
-    {
-        display: none;
-    }
-
-
-    header .mob_menu_btn
-    {
-        display: flex;
-    }
-
-
 
     /*---------------
         Page head
@@ -609,7 +596,7 @@
     }
 
 
-    .direction_services .link a
+    .direction_services .selection_btn
     {
         font-size: 17px;
 

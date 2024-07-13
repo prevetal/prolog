@@ -631,6 +631,7 @@
 
     .direction_why .item .name
     {
+        min-height: 66px;
         padding-left: 35px;
     }
 
@@ -967,8 +968,10 @@
         position: relative;
         bottom: 0;
 
-        width: calc(100% - 24px);
+        width: calc(100% + 24px);
+        max-width: calc(100% + 24px);
         margin-top: 40px;
+        margin-left: -24px;
     }
 
 
@@ -997,6 +1000,7 @@
 
     .what_included .item .name
     {
+        min-height: 66px;
         padding-left: 35px;
     }
 

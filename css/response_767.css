@@ -203,6 +203,12 @@
     }
 
 
+    .first_section .bg
+    {
+        margin-top: 30px;
+    }
+
+
 
     /*----------------
         Advantages
@@ -233,6 +239,19 @@
     /*----------
         Rent
     ----------*/
+    .rent
+    {
+        position: relative;
+        z-index: 5;
+
+        margin-bottom: 0;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+        background: var(--bg);
+    }
+
+
     .rent .text_block
     {
         font-size: var(--font_size);
@@ -261,6 +280,8 @@
     ---------------*/
     .geography
     {
+        display: none;
+
         padding-bottom: 60px;
 
         border-radius: 0 0 40px 40px;
@@ -279,7 +300,8 @@
     ----------*/
     .blog.blue
     {
-        padding-top: 60px;
+        margin-top: -68px;
+        padding-top: 128px;
         padding-bottom: 30px;
     }
 
@@ -474,7 +496,7 @@
 
     .services .service .name
     {
-        font-size: 18px;
+        font-size: 24px;
     }
 
 
@@ -520,14 +542,22 @@
 
     .clients.default
     {
+        position: relative;
+        z-index: 3;
+
         padding-top: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
+        background: var(--bg);
     }
 
 
     .clients.default.big_m
     {
         padding-bottom: 60px;
+
+        border-radius: 0 0 40px 40px;
     }
 
 
@@ -790,6 +820,12 @@
     }
 
 
+    .direction_why .item .name
+    {
+        min-height: 0;
+    }
+
+
     .direction_why .item .name:before
     {
         height: 48px;
@@ -880,6 +916,15 @@
     .cases .swiper
     {
         padding-bottom: 80px;
+    }
+
+
+    .cases .swiper-horizontal > .swiper-pagination-bullets,
+    .cases .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .cases .swiper-pagination-custom,
+    .cases .swiper-pagination-fraction
+    {
+        display: flex;
     }
 
 
@@ -1172,6 +1217,12 @@
     .what_included .item:before
     {
         font-size: 44px;
+    }
+
+
+    .what_included .item .name
+    {
+        min-height: 0;
     }
 
 
