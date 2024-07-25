@@ -120,11 +120,6 @@
     .first_section .bg
     {
         bottom: -32px;
-
-        max-height: calc(100% + 72px);
-
-        object-fit: cover;
-        object-position: 0 100%;
     }
 
 

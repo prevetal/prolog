@@ -1049,8 +1049,12 @@ header .mob_menu_btn.active .icon + .icon
     display: block;
 
     width: calc(50% + 15px);
+    max-height: calc(100% + 72px);
 
     pointer-events: none;
+
+    object-fit: cover;
+    object-position: 0 100%;
 }
 
 
