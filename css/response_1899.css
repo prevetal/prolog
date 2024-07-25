@@ -54,7 +54,19 @@
     ------------*/
     header
     {
-        padding: 28px 0;
+        padding: 49px 0 28px;
+    }
+
+
+    header .phone
+    {
+        position: absolute;
+        top: 16px;
+        right: 40px;
+
+        width: 260px;
+
+        text-align: center;
     }
 
 
@@ -64,24 +76,7 @@
 
         width: 260px;
         height: 50px;
-    }
-
-
-    @media print,
-    (max-width: 1599px)
-    {
-        header .menu,
-        header .phone,
-        header .callback_btn
-        {
-            display: none;
-        }
-
-
-        header .mob_menu_btn
-        {
-            display: flex;
-        }
+        margin-left: 0;
     }
 
 
@@ -780,10 +775,10 @@
     .direction_services .selection_btn
     {
         font-size: 18px;
-        margin-top: 40px;
 
         width: 340px;
         height: 56px;
+        margin-top: 40px;
     }
 
 

@@ -29,7 +29,24 @@
     ------------*/
     header
     {
-        padding: 24px 0;
+        padding-bottom: 24px;
+    }
+
+
+    header .phone
+    {
+        right: 24px;
+
+        width: 184px;
+    }
+
+
+    header .callback_btn
+    {
+        font-size: 14px;
+
+        width: 184px;
+        height: 37px;
     }
 
 
@@ -97,6 +114,12 @@
     .first_section .btn
     {
         margin-top: 48px;
+    }
+
+
+    .first_section .bg
+    {
+        bottom: -32px;
     }
 
 

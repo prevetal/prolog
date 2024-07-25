@@ -50,6 +50,42 @@
 
 
 
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .menu .hide
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+
+    header .callback_btn
+    {
+        margin-left: 24px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
     /*-------------------
         First section
     -------------------*/
@@ -101,6 +137,8 @@
 
     .first_section .bg
     {
+        bottom: 0;
+
         width: calc(50% - 12px);
     }
 

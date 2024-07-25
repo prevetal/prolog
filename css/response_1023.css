@@ -25,6 +25,23 @@
 
 
 
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .callback_btn,
+    header .mob_menu_btn
+    {
+        margin-left: 0;
+    }
+
+
+
     /*---------------
         Page head
     ---------------*/

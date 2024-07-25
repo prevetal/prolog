@@ -80,10 +80,27 @@
     }
 
 
+    header .phone,
+    header .callback_btn
+    {
+        display: none;
+    }
+
+
     header .mob_menu_btn .icon
     {
         width: 25px;
         height: 15px;
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        width: 100%;
     }
 
 
